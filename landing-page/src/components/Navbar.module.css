@@ -1,0 +1,44 @@
+.nav{
+    color: white;
+    background-color: palevioletred;
+    background: linear-gradient(rgba(89,45,90,0.7),rgba(70,67,50,0.9));
+    height: 100px;
+    width: 100%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.logo{
+    font-size: larger;
+    border: 2px solid black;
+}
+
+.links li:hover{
+    border: 2px solid white;
+}
+.head{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(123, 59, 184);
+    background: linear-gradient(rgb(28,60,90,0.5),rgb(90,45,67,0.9));
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+.head p{
+    color:aqua;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-left: 7px;
+}
