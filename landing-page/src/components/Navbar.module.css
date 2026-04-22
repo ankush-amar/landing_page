@@ -1,44 +1,56 @@
-.nav{
-    color: white;
-    background-color: palevioletred;
-    background: linear-gradient(rgba(89,45,90,0.7),rgba(70,67,50,0.9));
-    height: 100px;
-    width: 100%;
+*{
+    padding: 0;
+    margin: 0;
 }
+.nav{
+    display: flex;
+    color: white;
+    background: linear-gradient(rgba(89,45,90,0.7),rgba(30,67,50,0.9));
+    
+}
+
 .links{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     justify-content: space-evenly;
+    gap: 6rem;
     list-style: none;
 
 }
 .logo{
-    font-size: larger;
+    height: 100px;
+    width: 100%;
+    padding-left: 20px;
+    font-weight:bolder;
+    font-size: 30px;
+    text-shadow: 30px 5px 30px black;
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: space-between;
     border: 2px solid black;
+}
+.links{
+    font-size: 1rem;
+    color: white;
+    text-shadow: none;
 }
 
 .links li:hover{
     border: 2px solid white;
 }
-.head{
-    height: 700px;
-    width: 100%;
-    background-color: rgb(123, 59, 184);
-    background: linear-gradient(rgb(28,60,90,0.5),rgb(90,45,67,0.9));
+.btn{
+    height: 1.7rem;
+    width: 6rem;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(rgba(89,45,90,0.7),rgba(30,67,50,0.9));
+    border: none;
+    border-radius: 5px;
 }
-.head h1{
-    font-size: 5rem;
-    font-weight: 500;
-}
-.head p{
-    color:aqua;
-    font-size: 5rem;
-    font-weight: 900;
-    margin-left: 7px;
+.btn:hover{
+    background: linear-gradient(rgba(70,80,60,0.5), rgba(30, 67, 50, 0.9));
 }

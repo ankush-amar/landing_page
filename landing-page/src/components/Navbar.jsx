@@ -9,22 +9,9 @@ function Navbar() {
                     <li>Features</li>
                     <li>Pricing</li>
                     <li>Contact</li>
-                    <li>Offers</li>
-                    <li>Sell</li>
                 </ul>
+                <button className = {styles.btn}>Get Started</button>
             </div>
-
-            
-            <div className = {styles.head}>
-                <h1>Welcom to</h1>
-                <p>Brand.com</p>
-            </div>
-
-            <div></div>
-        
-
-            <button className = {styles.btn}>Get Started</button>
-
         </nav>
     );
 }
