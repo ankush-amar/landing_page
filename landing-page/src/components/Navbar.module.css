@@ -22,7 +22,7 @@
     padding-left: 20px;
     font-weight:bolder;
     font-size: 30px;
-    text-shadow: 30px 5px 30px black;
+    text-shadow: 15px 15px 15px black;
     color:aqua;
     display: flex;
     justify-content: center;
@@ -40,6 +40,10 @@
 .links li:hover{
     border: 2px solid white;
 }
+.links li{
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
 .btn{
     height: 1.7rem;
     width: 6rem;
@@ -50,6 +54,7 @@
     background: linear-gradient(rgba(89,45,90,0.7),rgba(30,67,50,0.9));
     border: none;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
 }
 .btn:hover{
     background: linear-gradient(rgba(70,80,60,0.5), rgba(40, 67, 50, 0.9));

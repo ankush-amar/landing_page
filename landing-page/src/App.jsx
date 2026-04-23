@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Login from './components/Login';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <>
     <Navbar/>
     <Hero/>
+    <Login/>
     </>
   );
 }

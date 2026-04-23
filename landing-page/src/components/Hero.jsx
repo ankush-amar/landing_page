@@ -8,7 +8,6 @@ function Hero() {
                 <h1>Welcome to my page</h1>
                 <p>Let's build something new with me</p>
             </div>
-            
         </section>
 
     );
